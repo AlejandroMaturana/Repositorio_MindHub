@@ -1,0 +1,3 @@
+Hola Iván, vista tu perspectiva, comparto:
+Tu análisis es claro y bien enfocado: destacas correctamente cómo HTML5, CSS, JavaScript y GitHub fortalecen el perfil Full Stack.
+Como sugerencia, podrías incorporar un Framework como Bootstrap u otro CSS para optimizar la responsividad (capacidad de una interfaz web de adaptarse a diferentes tamaños de pantalla de dispositivos), para ofrecer una experiencia de usuario optimizada y proyectar una futura conexión con un backend Node.js, lo que ampliaría el alcance funcional de tu landing page y reforzaría aún más tu portafolio profesional.

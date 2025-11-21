@@ -1,0 +1,131 @@
+<!-- Archivo_E5M2.HTML - Manuel González Lozano -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <meta name="description" content="Evaluación HTML+CSS">
+    <meta name="author" content="Manuel A. González Lozano">
+    <meta name="keywords" content="jQuery,Portafolio,Proyectos">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mi Primer Portafolio</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum officiis dolorum suscipit possimus eaque
+            inventore magnam, nihil, laborum mollitia totam itaque, molestiae voluptatem vel non eos? Nulla corrupti
+            repellat libero?</p>
+    </header>
+
+    <nav>
+        <a href="#sobre-mi">Sobre Mí</a>
+        <a href="#proyectos">Mis Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum officiis dolorum suscipit possimus eaque
+                inventore magnam, nihil, laborum mollitia totam itaque, molestiae voluptatem vel non eos? Nulla corrupti
+                repellat libero?</p>
+
+            <h3>Habilidades aplicables a este proyecto:</h3>
+            <ul>
+                <li>HTML trainee</li>
+                <li>CSS trainee</li>
+                <li>JavaScript trainee</li>
+            </ul>
+            <br>
+            <p>Encuéntrame también en:
+                <a href="https://www.linkedin.com/in/manuel-a-gonzalez-lozano-bb23a5242/" target="_blank">LinkedIn</a>
+            </p>
+        </section>
+
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+
+            <h3>Proyecto 1: Esta página web</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum officiis dolorum suscipit possimus eaque
+                inventore magnam, nihil, laborum mollitia totam itaque, molestiae voluptatem vel non eos? Nulla corrupti
+                repellat libero?</p>
+
+            <h3>Proyecto 2: Próximamente...</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum officiis dolorum suscipit possimus eaque
+                inventore magnam, nihil, laborum mollitia totam itaque, molestiae voluptatem vel non eos? Nulla corrupti
+                repellat libero?</p>
+            <br></br>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si quieres contactarme, completa el formulario:</p>
+
+<form id="contactForm">
+    <div>
+        <label for="nombre" class="form-label">Nombre</label>
+        <input
+        type="text"
+        id="nombre"
+        required
+        class="form-control rounded-lg"
+        placeholder="Nombre y apellidos"
+        >
+        <p class="text-danger small mt-1 d-none" id="nombreError">
+            El nombre es obligatorio mi Bro.
+        </p>
+    </div>
+
+    <div>
+        <label for="email" class="form-label">Email</label>
+        <input
+        type="email"
+        id="email"
+        required
+        class="form-control rounded-lg"
+        placeholder="mail@dom.algo"
+        >
+        <p class="text-danger small mt-1 d-none" id="emailError">
+            El formato mail@dom.algo es obligatorio mi Bro.
+        </p>
+    </div>
+
+    <div>
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea
+        id="mensaje"
+        name="mensaje"
+        rows="5"
+        required
+        class="form-control"
+        placeholder="Textea lo que te trae por aquí..."
+        ></textarea>
+        <p class="text-danger small mt-1 d-none" id="mensajeError">
+            El contenido del mensaje debe ser válido mi Bro.
+        </p>
+    </div>
+
+    <button
+    type="submit"
+    id="submitBtn"
+    class="btn btn-primary w-100 fw-bold py-3 rounded-lg shadow-sm"
+    disabled
+    >
+    Enviar mensaje
+    </button>
+
+</form>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Propiedad intelectual de MGL, no haga tal de andar copiando</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./Assets/main.js"></script>
+</body>
+</html>

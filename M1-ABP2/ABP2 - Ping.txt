@@ -1,0 +1,20 @@
+
+1. Contribución del módulo al perfil profesional
+El dominio de los fundamentos de bases de datos relacionales constituye un pilar crítico en el perfil de un Desarrollador Full Stack JavaScript Junior, ya que permite estructurar, normalizar y administrar información de forma eficiente y consistente.
+Este módulo entrega la competencia esencial de:
+“Operar una base de datos relacional utilizando el lenguaje SQL para la obtención, manipulación y definición de datos dando solución a un problema de almacenamiento de información.”
+Comprender el modelamiento entidad–relación, las reglas de integridad referencial, la normalización (hasta 3FN) y el uso de sentencias DDL/DML/DQL da al desarrollador una ventaja técnica tangible: puede diseñar arquitecturas de datos sólidas, optimizar consultas y garantizar la coherencia de la información en sistemas productivos.
+En un mercado donde muchos programadores dependen de ORM o de abstracciones automáticas, dominar SQL puro y el diseño lógico relacional distingue al profesional como alguien capaz de diseñar soluciones con base analítica y estructural, lo que incrementa su empleabilidad y autonomía técnica en entornos empresariales.
+
+
+2. Proyecto imaginado: “Registro de Accidentes en un taller metalmecánico, para Análisis y Toma de Decisiones”
+Descripción del producto: Se propone desarrollar una base de datos relacional que estandarice y centralice la información sobre accidentes laborales ocurridos en el Taller en cuestión, reemplazando los registros fragmentados del formato anterior.
+El sistema permitiría almacenar, consultar y analizar datos en tiempo real mediante una interfaz en Javascript conectada a una base SQL y a futuro integrándose con un backend Node.js.
+
+Diseño lógico propuesto:
+•	Entidades principales: Personal, Accidentes, Diagnósticos, Causas, Ubicaciones, Responsables.
+•	Relaciones:
+	   Cada accidente se asocia a un trabajador (1:N).
+           Cada accidente tiene una o más causas raíz (N:M).
+           Cada accidente se vincula con una ubicación física y un responsable de análisis.
+•	Funciones de análisis integradas en el lado del servidor: consultas parametrizadas por rango de fechas, tipo de accidente, o nivel de gravedad.
